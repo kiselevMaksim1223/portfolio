@@ -1,0 +1,15 @@
+.wrapper{
+    background-color: #e1aa98;
+}
+.projectBlock{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.projectsBlockTitle{
+
+}
+.projects{
+
+}

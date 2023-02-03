@@ -1,0 +1,37 @@
+.wrapper {
+
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h4 {
+    margin: 20px 0 5px 0;
+}
+
+.media {
+    list-style-type: none;
+    padding: 0;
+}
+
+.media li {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background-color: #bebd46;
+    margin: 5px;
+}
+
+.media a {
+    text-decoration: none;
+    /*padding: 0 0 0 15px;*/
+    display: block;
+    margin: 10px 15px;
+}
+
+p{
+    margin: 5px 0 15px 0;
+}
