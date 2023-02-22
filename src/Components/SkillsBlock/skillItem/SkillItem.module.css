@@ -6,7 +6,8 @@
     align-items: center;
     text-align: center;
     padding: 5px;
-    margin: 7px
+    margin: 7px;
+    box-sizing: border-box;
 }
 
 .icon{

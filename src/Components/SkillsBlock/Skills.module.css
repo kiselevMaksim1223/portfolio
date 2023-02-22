@@ -4,6 +4,7 @@
 
 .skillsBlock {
     /*height: 100vh;*/
+    min-height: 70vh;
     display: flex;
     justify-content: flex-start;
     flex-direction: column;
@@ -23,7 +24,7 @@
     text-align: center;
     flex-wrap: wrap;
 }
-@media (max-width: 400px) {
+@media (max-width: 768px) {
     .skills{
         justify-content:center;
     }

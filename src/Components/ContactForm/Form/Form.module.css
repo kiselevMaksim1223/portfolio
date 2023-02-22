@@ -1,29 +1,38 @@
-.form{
+.form {
+    border: 1px solid;
+    display: flex;
+    flex-direction: column;
+}
+
+h2{
+    margin: 0 0 10px 0;
+    align-self: center;
+}
+
+.nameBlock {
 
 }
 
-.nameBlock{
-
-}
-.nameBlock label{
+.nameBlock label {
     display: block;
 }
 
-.mailBlock{
-
-}
-.mailBlock label{
-    display: block;
+.mailBlock {
 
 }
 
-.textBlock{
-
-}
-.textBlock label{
+.mailBlock label {
     display: block;
 }
 
-.button{
+.textBlock {
 
+}
+
+.textBlock label {
+    display: block;
+}
+
+.button {
+align-self: center;
 }

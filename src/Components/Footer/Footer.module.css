@@ -9,10 +9,12 @@
 }
 
 h4 {
+    border: 1px solid;
     margin: 20px 0 5px 0;
 }
 
 .media {
+    border: 1px solid;
     list-style-type: none;
     padding: 0;
 }
@@ -33,5 +35,6 @@ h4 {
 }
 
 p{
+    border: 1px solid;
     margin: 5px 0 15px 0;
 }

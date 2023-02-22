@@ -8,8 +8,11 @@ export const Projects = () => {
         <div className={s.wrapper}>
             <div className={comStyles.container}>
                 <div className={s.projectBlock}>
-                    <h2 className={s.projectsBlockTitle}>Some Things I’ve Built</h2>
+                    <h2 className={s.projectsBlockTitle}>Some Things I’ve Built (потом в desktop версии с помощью позиционирования правый блок на левый будет накладываться немного))</h2>
                     <div className={s.projects}>
+                        <ProjectItem/>
+                        <ProjectItem/>
+                        <ProjectItem/>
                         <ProjectItem/>
                     </div>
                 </div>
