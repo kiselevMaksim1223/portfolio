@@ -1,0 +1,17 @@
+.title {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    color: #ccd6f6;
+    position: relative;
+    align-self: flex-start;
+}
+.title::after{
+    content: "";
+    width: 250px;
+    display: block;
+    background: #233554;
+    height: 1px;
+    position: absolute;
+    top: 20px;
+    transform: translate(115%, 0%);
+}
