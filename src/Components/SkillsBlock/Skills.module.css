@@ -1,5 +1,5 @@
 .wrapper {
-    background-color: #afd0ab;
+    background-color: #0a192f;
 }
 
 .skillsBlock {
@@ -9,6 +9,7 @@
     justify-content: flex-start;
     flex-direction: column;
     align-items: center;
+    font-family: Inter, sans-serif;
 }
 
 .title {
