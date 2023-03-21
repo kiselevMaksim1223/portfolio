@@ -8,9 +8,9 @@ export const Main = () => {
             <div className={comStyles.container}>
                 <div className={s.mainBlock}>
                     <div className={s.greetText}>
-                        <span>Hi there</span>
-                        <h1>I`m Max</h1>
-                        <p>Front End Developer</p>
+                        <div className={s.greetBegin}><span>Hi, my name is</span></div>
+                        <div className={s.greetName}><h1>Maksim Kiselev.</h1></div>
+                        <div className={s.greetEnd}><p>I build things for the web.</p></div>
                     </div>
                     <div className={s.photo}>
 
