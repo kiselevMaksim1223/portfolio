@@ -3,7 +3,7 @@
 }
 
 .mainBlock {
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -26,6 +26,12 @@
     width: 60%;
 }
 
+@media(max-width: 768px){
+    .greetText{
+        width: 100%;
+    }
+}
+
 .greetBegin {
     font-size: 18px;
     color: #64ffda;
@@ -33,13 +39,13 @@
 }
 
 .greetName {
-    font-size: clamp(40px, 60px, 80px);
+    font-size: clamp(10px, 6vw, 80px);
     margin: 10px 0;
     color: #ccd6f6;
 }
 
 .greetEnd {
-    font-size: clamp(40px, 60px, 80px);
+    font-size: clamp(40px, 6vw, 80px);
     margin: 10px 0;
     color: #8892b0;
     font-weight: 600;
