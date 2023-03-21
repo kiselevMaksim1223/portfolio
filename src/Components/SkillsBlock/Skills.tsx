@@ -23,7 +23,6 @@ export const Skills = () => {
         <div className={s.wrapper}>
             <div className={comStyles.container}>
                 <div className={s.skillsBlock}>
-
                     <Title text={"Skills"}/>
                     <div className={s.skills}>
                         {skills.map(si => {
