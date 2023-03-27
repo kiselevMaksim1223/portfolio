@@ -4,6 +4,7 @@ import {ProjectItem} from "./ProjectItem/ProjectItem";
 import comStyles from "../../Common/Container/ContainerStyle.module.css"
 import {Title} from "../../Common/Title/Title";
 import taskScheduler from "../../assets/img/ProjectImg/taskScheduler.png"
+import hotel from "../../assets/img/ProjectImg/Hotel.png"
 
 
 export const Projects = () => {
@@ -18,6 +19,16 @@ export const Projects = () => {
                 "                    incidunt, ipsam minima molestiae, molestias non odio quisquam sit vero vitae.",
             technologies: ["React", "Redux", "MUI", "Axios", "react-router-dom", "TS"],
             githubLink: "https://github.com/kiselevMaksim1223/taskScheduler"
+        },
+        {
+            id: 2,
+            img: hotel,
+            title: "Hotel",
+            description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit.\n" +
+                "                    Blanditiis, debitis maxime! Corporis excepturi ipsa iure nobis temporibus. Commodi ducimus\n" +
+                "                    incidunt, ipsam minima molestiae, molestias non odio quisquam sit vero vitae.",
+            technologies: ["React", "Redux", "styled-components", "react-router-dom", "TS"],
+            githubLink: "https://github.com/kiselevMaksim1223/guest-house"
         },
     ]
 
