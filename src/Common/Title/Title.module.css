@@ -5,7 +5,7 @@
     position: relative;
     align-self: flex-start;
     /*padding: 20px 0;*/
-    margin: 20px 0;
+    margin: 30px 0;
 }
 .title::after{
     content: "";
@@ -14,7 +14,7 @@
     background: #233554;
     height: 1px;
     position: absolute;
-    top: 20px;
+    top: 30px;
     left: 100%;
     transform: translate(10%, 0%);
 }

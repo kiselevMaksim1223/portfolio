@@ -2,19 +2,35 @@
     border: 1px solid;
     display: flex;
     flex-direction: column;
+    color:#ccd6f6;
+    padding: 40px;
+    font-family: Inter, sans-serif;
+}
+.form div:nth-child(n){
+    padding: 5px;
+}
+
+.form input:nth-child(n), textarea{
+    width: 100%;
+}
+
+.form label:nth-child(n){
+    display: block;
+    font-size: clamp(15px, 16px, 80px);
+    margin-bottom: 3px;
 }
 
 h2{
     margin: 0 0 10px 0;
     align-self: center;
+    font-size: clamp(15px, 40px, 50px)
 }
 
-.nameBlock {
+.nameBlock{
 
 }
 
 .nameBlock label {
-    display: block;
 }
 
 .mailBlock {
@@ -22,7 +38,6 @@ h2{
 }
 
 .mailBlock label {
-    display: block;
 }
 
 .textBlock {
@@ -30,9 +45,10 @@ h2{
 }
 
 .textBlock label {
-    display: block;
 }
 
 .button {
-align-self: center;
+    align-self: center;
+    padding: 10px 35px;
+    font-size: 16px;
 }

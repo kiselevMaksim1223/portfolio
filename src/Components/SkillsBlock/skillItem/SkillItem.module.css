@@ -1,6 +1,7 @@
 .skillItem{
     /*border: 1px solid;*/
     width: 250px;
+    height: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -10,8 +11,8 @@
     box-sizing: border-box;
     background: #112240;
     box-shadow: 0 10px 30px -15px rgba(2,12,27,0.7);
-
 }
+
 
 .icon{
     width: 60px;

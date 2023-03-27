@@ -1,30 +1,32 @@
 import React, {FC} from 'react';
 import s from "./ProjectItem.module.css";
+import {TbBrandGithub} from "react-icons/tb"
 
 
-export const ProjectItem: FC<{ reserved?: boolean }> = ({reserved}) => {
+type projectItemType = {
+    img:string
+    title:string
+    description:string
+    technologies:string[]
+    githubLink:string
+}
+
+export const ProjectItem: FC<projectItemType> = ({img, technologies, title, description, githubLink}) => {
+
     return (
-
         <div className={s.commonBlock}>
-
-                <div className={reserved ? s.projectImgReversed : s.projectImg}>
-                    {/*<img src={exmpl} alt={"there will be project picture"}/>*/}
-                </div>
-
-            <div className={reserved ? s.projectContentReversed : s.projectContent}>
-                <h3 className={s.projectTitle}>Project Title</h3>
-                {/*<div className={s.projectDescription}>*/}
-                <p className={s.projectDescription}>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    Blanditiis, debitis maxime! Corporis excepturi ipsa iure nobis temporibus. Commodi ducimus
-                    incidunt, ipsam minima molestiae, molestias non odio quisquam sit vero vitae.</p>
-                {/*</div>*/}
+            <div style={{backgroundImage:`url(${img})`}} className={s.projectImg}></div>
+            <div className={s.projectContent}>
+                <h3 className={s.projectTitle}>{title}</h3>
+                <p className={s.projectDescription}>{description}</p>
                 <ul className={s.projectTechList}>
-                    <li><a href={"/"}>React</a></li>
-                    <li><a href={"/"}>CSS</a></li>
-                    <li><a href={"/"}>Redux</a></li>
+                    {technologies.map(t => {
+                       return <li>{t}</li>
+                    })}
+
                 </ul>
                 <div className={s.projectLinks}>
-                    <a href={"/"}>GitHub</a>
+                    <a href={githubLink}><TbBrandGithub size={25}/></a>
                 </div>
             </div>
         </div>

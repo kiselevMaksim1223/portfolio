@@ -25,6 +25,13 @@
     text-align: center;
     flex-wrap: wrap;
 }
+
+@media (max-width: 1005px) {
+    .skills{
+        justify-content:space-evenly;
+    }
+}
+
 @media (max-width: 768px) {
     .skills{
         justify-content:center;
